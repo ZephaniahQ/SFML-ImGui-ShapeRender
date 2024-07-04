@@ -1,5 +1,5 @@
 
-## SFML ShapesRender
+## SFML-ImGui ShapeRender
 
 This project uses a combinatoin of SFML and ImGui to make a simple renderer and control interface to load sfml shapes with different attributes dynamically from a provided file and renders them according to the attributes mentioned in the file;
 
