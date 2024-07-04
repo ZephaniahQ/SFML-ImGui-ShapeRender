@@ -3,9 +3,9 @@
 
 This project uses a combinatoin of SFML and ImGui to make a simple renderer and control interface to load sfml shapes with different attributes dynamically from a provided file and renders them according to the attributes mentioned in the file;
 
-## Functionality
+The following are the attribs loaded from the config file.
 
-The attributes are:
+### Shape attributes:
 
     - n         string name;
     - x         float starting coordinate x
@@ -16,11 +16,19 @@ The attributes are:
     - W, H      float width and height for rectangles
     - R,G,B     int RBG color info
 
-Aditionaly there are screen and font attributes mentioned in the config:
+### Window and Font attributes:
     - sWidth, sHeight   int  screen width and height for window resolution
     - font file name    string filename for the font to load for shape names
 
+## Functionality
+
+### Screen border colision detection
+
 After rendering the shapes are continuously checked for colision with the screen borders and if colision is detected their velocity is reversed to give a bound back effect
+
+### ImGui control panel
+
+An ImGui interface is provided to edit anything from any shapes attributes at runtime
 
 ## Libraries used:
 
