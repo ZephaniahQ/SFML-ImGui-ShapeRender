@@ -39,7 +39,10 @@ An ImGui interface is provided to edit anything from any shapes attributes at ru
 
 Both libraries used are platform independant so build system is the only thing that will differ.
 I am working in a WSL Debian environment and using GNU make as my build system.
-For running this code in Windows you will find many tutorials to setup a project with SFML + ImGui-SFML online, after that you can just coppy the source files.
+
+For running this code in Windows you will find many tutorials to setup a Visual Studio project with SFML + ImGui-SFML online,
+after that you can just coppy the source files.
+
 Or you may use a build system like CMAKE and set it up like my make file.
 
 # Note:
